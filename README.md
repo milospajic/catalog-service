@@ -12,7 +12,7 @@ It was not requirement, but this application can also generate tokens for you. A
 
 `./scripts/get-jwt-token.sh`
 
-In real life scenarios this is not good microservices design and this functionality of providing tokens should be responsibility of another microservice, but for simplicity I kept it here
+In real life scenarios this is not good microservices design and this functionality of providing tokens should be responsibility of another microservice, but for simplicity I kept it here. For the same reason ( and also to save some time) I didn't write any unit tests for security package. 
 
 With either of this tokens you'll be able to make API calls
 

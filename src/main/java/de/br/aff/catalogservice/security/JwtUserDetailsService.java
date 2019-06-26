@@ -12,8 +12,8 @@ public class JwtUserDetailsService implements UserDetailsService {
 
   @Override
   public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-    //TODO: get a user from db
 
+    //TODO: Proper implementation would be with fetching the user form a repository
     if ("username".equals(username)) {
       return new User(username, "$2a$10$nDxisS6FdBwk04vXYWgTB.R//uwAO5G/oq0bIF9A.9ZcA6YH4ppkO",
           new ArrayList<>());
