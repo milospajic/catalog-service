@@ -46,7 +46,7 @@ DELETE /catalog-api/v1/product/1 - to delete product with id=1
 
 Open terminal and go to project's home directory
 
-To start the app run:
+To start the app, run:
 
 `./gradlew bootRun`
 
